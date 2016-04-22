@@ -1,9 +1,0 @@
-nl\hr\EncryptedChat\server\database\implementations\MySQL.class
-nl\hr\EncryptedChat\server\poller\EncryptedChatConsumer.class
-nl\hr\EncryptedChat\server\database\Connector.class
-nl\hr\EncryptedChat\server\publisher\QueueNameException.class
-nl\hr\EncryptedChat\server\poller\Recv.class
-nl\hr\EncryptedChat\server\Main.class
-nl\hr\EncryptedChat\server\publisher\Publisher.class
-nl\hr\EncryptedChat\server\database\iDBConnector.class
-nl\hr\EncryptedChat\server\database\implementations\TreeMapDB.class
