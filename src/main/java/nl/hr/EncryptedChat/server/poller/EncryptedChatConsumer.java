@@ -99,8 +99,7 @@ public class EncryptedChatConsumer extends DefaultConsumer {
 	private void updateUser(String fromKey, String message, String toKey, String routingKey){
 		String newRoutingKey;
 		do {
-			//newRoutingKey = StringUtils.substring(new BigInteger(500, random).toString(32), 0, 64);
-			newRoutingKey = "";
+			newRoutingKey = StringUtils.substring(new BigInteger(500, random).toString(32), 0, 64);
 		}while(connector.containsRoutingKey(newRoutingKey));
 		try {
 			publisher.sendMessage(connector.getUser(toKey), newRoutingKey + ":" + fromKey);
